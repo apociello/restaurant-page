@@ -1,0 +1,12 @@
+h1,p {
+    color: snow;
+}
+
+header{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    text-align: center;
+}
