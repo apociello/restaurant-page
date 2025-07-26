@@ -1,11 +1,15 @@
-/* import "./home.css"
+import "./home.css"
+import image from "./coffee&study.jpg"
 
 function homePage() {
     const intro = document.createElement('p');
-    intro.textContent = 'A refined space where exceptional coffee meets a tranquil atmosphere. Ideal for focused work, thoughtful reading, or peaceful relaxation.'
+    intro.textContent = 'A cozy haven for coffee lovers and deep thinkers'
+    const img = document.createElement('img');
+    img.src = image;
+    img.classList.add('img')
 
     const content = document.getElementById('content');
-    content.append(intro)
+    content.append(intro, img)
 }
 
-export {homePage} */
+export {homePage}
