@@ -3,7 +3,7 @@ import image from "./coffee&study.jpg"
 
 function homePage() {
     const intro = document.createElement('p');
-    intro.textContent = 'A cozy haven for coffee lovers and deep thinkers';
+    intro.textContent = 'Sip. Think. Unwind.';
     intro.classList.add('intro');
 
     const img = document.createElement('img');
