@@ -22,3 +22,5 @@ menuBtn.addEventListener('click', () => {
 contactBtn.addEventListener('click', () => {
     contentDiv.textContent = '';
 })
+
+homePage()
