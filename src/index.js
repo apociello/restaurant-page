@@ -1,5 +1,6 @@
 import "./style.css"
-import {homePage} from "./pages/home/homePage.js"
+import {homePage} from "./pages/home/homePage.js";
+import {menuPage} from "./pages/menu/menuPage.js"
 console.log('Hello World!')
 
 const contentDiv = document.getElementById('content');
@@ -15,6 +16,7 @@ homeBtn.addEventListener('click', () => {
 
 menuBtn.addEventListener('click', () => {
     contentDiv.textContent = '';
+    menuPage()
 })
 
 contactBtn.addEventListener('click', () => {
