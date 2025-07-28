@@ -21,8 +21,13 @@ function homePage() {
 
     openingHours.append(hoursTitle, hours)
 
+    const homeDiv = document.createElement('div');
+    homeDiv.classList.add('homeDiv')
+    homeDiv.append(intro, img, openingHours);
+
     const content = document.getElementById('content');
-    content.append(intro, img, openingHours)
+    content.append(homeDiv)
+
 }
 
 export {homePage}
