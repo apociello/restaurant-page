@@ -9,7 +9,7 @@ function menuPage(){
     const title1 = document.createElement('p');
     title1.textContent = 'Coffee';
     title1.classList.add('title')
-    section1.append(title1);
+
     const coffeesOptions = document.createElement('div');
     coffeesOptions.classList.add('coffeesOptions')
 
@@ -40,7 +40,7 @@ function menuPage(){
     coffee3.append(coffee3Name, coffee3Price);
     coffeesOptions.append(coffee3)
 
-    section1.append(coffeesOptions)
+    section1.append(title1, coffeesOptions)
 
 
     const section2 = document.createElement('div');
@@ -48,7 +48,6 @@ function menuPage(){
     const title2 = document.createElement('p')
     title2.textContent = 'Tea';
     title2.classList.add('title')
-    section2.append(title2);
     const teasOptions = document.createElement('div');
     teasOptions.classList.add('teasOptions')
 
@@ -79,14 +78,13 @@ function menuPage(){
     tea3.append(tea3Name, tea3Price);
     teasOptions.append(tea3)
 
-    section2.append(teasOptions)
+    section2.append(title2, teasOptions)
 
     const section3 = document.createElement('div');
     section3.classList.add('sec3');
     const title3 = document.createElement('p');
     title3.textContent = 'Bakes';
     title3.classList.add('title')
-    section3.append(title3);
     const bakesOptions = document.createElement('div');
     bakesOptions.classList.add('bakesOptions')
 
@@ -117,7 +115,7 @@ function menuPage(){
     bakes3.append(bakes3Name, bakes3Price);
     bakesOptions.append(bakes3)
 
-    section3.append(bakesOptions)
+    section3.append(title3, bakesOptions)
 
 
     const section4 = document.createElement('div');
@@ -125,7 +123,6 @@ function menuPage(){
     const title4 = document.createElement('p')
     title4.textContent = 'Extras';
     title4.classList.add('title')
-    section4.append(title4);
     const extrasOptions = document.createElement('div');
     extrasOptions.classList.add('extrasOptions')
 
@@ -156,7 +153,7 @@ function menuPage(){
     extras3.append(extras3Name, extras3Price);
     extrasOptions.append(extras3)
 
-    section4.append(extrasOptions)
+    section4.append(title4, extrasOptions)
 
     menuDiv.append(section1, section2, section3, section4)
     const content = document.getElementById('content');

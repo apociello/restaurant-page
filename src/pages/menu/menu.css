@@ -16,7 +16,20 @@
 .sec3,
 .sec4 {
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec1,
+.sec2 {
+    padding-bottom: 0;
+}
+
+.sec3,
+.sec4 {
+    padding-top: 0;
 }
 
 .coffee1,
@@ -37,8 +50,8 @@
 
 .title {
     font-size: 1.5rem;
-    font-style: italic;
-    margin-bottom: 0.5rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
 }
 
 .coffeesOptions,
