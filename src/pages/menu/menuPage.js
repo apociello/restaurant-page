@@ -5,16 +5,16 @@ function menuPage(){
     menuDiv.classList.add('menuDiv');
 
     const section1 = document.createElement('div');
-    section1.classList.add('sec1');
+    section1.classList.add('menu-section');
     const title1 = document.createElement('p');
     title1.textContent = 'Coffee';
     title1.classList.add('title')
 
     const coffeesOptions = document.createElement('div');
-    coffeesOptions.classList.add('coffeesOptions')
+    coffeesOptions.classList.add('options')
 
     const coffee1 = document.createElement('div');
-    coffee1.classList.add('coffee1')
+    coffee1.classList.add('menu-line')
     const coffee1Name = document.createElement('p');
     coffee1Name.textContent = 'Espresso'
     const coffee1Price = document.createElement('p');
@@ -23,7 +23,7 @@ function menuPage(){
     coffeesOptions.append(coffee1)
 
     const coffee2 = document.createElement('div');
-    coffee2.classList.add('coffee2')
+    coffee2.classList.add('menu-line')
     const coffee2Name = document.createElement('p');
     coffee2Name.textContent = 'Latte'
     const coffee2Price = document.createElement('p');
@@ -32,7 +32,7 @@ function menuPage(){
     coffeesOptions.append(coffee2)
 
     const coffee3 = document.createElement('div');
-    coffee3.classList.add('coffee3')
+    coffee3.classList.add('menu-line')
     const coffee3Name = document.createElement('p');
     coffee3Name.textContent = 'Iced Coffee'
     const coffee3Price = document.createElement('p');
@@ -44,15 +44,15 @@ function menuPage(){
 
 
     const section2 = document.createElement('div');
-    section2.classList.add('sec2');
+    section2.classList.add('menu-section');
     const title2 = document.createElement('p')
     title2.textContent = 'Tea';
     title2.classList.add('title')
     const teasOptions = document.createElement('div');
-    teasOptions.classList.add('teasOptions')
+    teasOptions.classList.add('options')
 
     const tea1 = document.createElement('div');
-    tea1.classList.add('tea1')
+    tea1.classList.add('menu-line')
     const tea1Name = document.createElement('p');
     tea1Name.textContent = 'English Breakfast'
     const tea1Price = document.createElement('p');
@@ -61,7 +61,7 @@ function menuPage(){
     teasOptions.append(tea1)
 
     const tea2 = document.createElement('div');
-    tea2.classList.add('tea2')
+    tea2.classList.add('menu-line')
     const tea2Name = document.createElement('p');
     tea2Name.textContent = 'Green Tea'
     const tea2Price = document.createElement('p');
@@ -70,7 +70,7 @@ function menuPage(){
     teasOptions.append(tea2)
 
     const tea3 = document.createElement('div');
-    tea3.classList.add('tea3')
+    tea3.classList.add('menu-line')
     const tea3Name = document.createElement('p');
     tea3Name.textContent = 'Earl Grey'
     const tea3Price = document.createElement('p');
@@ -81,15 +81,15 @@ function menuPage(){
     section2.append(title2, teasOptions)
 
     const section3 = document.createElement('div');
-    section3.classList.add('sec3');
+    section3.classList.add('menu-section');
     const title3 = document.createElement('p');
     title3.textContent = 'Bakes';
     title3.classList.add('title')
     const bakesOptions = document.createElement('div');
-    bakesOptions.classList.add('bakesOptions')
+    bakesOptions.classList.add('options')
 
     const bakes1 = document.createElement('div');
-    bakes1.classList.add('bakes1')
+    bakes1.classList.add('menu-line')
     const bakes1Name = document.createElement('p');
     bakes1Name.textContent = 'Butter Croissant'
     const bakes1Price = document.createElement('p');
@@ -98,7 +98,7 @@ function menuPage(){
     bakesOptions.append(bakes1);
 
     const bakes2 = document.createElement('div');
-    bakes2.classList.add('bakes2')
+    bakes2.classList.add('menu-line')
     const bakes2Name = document.createElement('p');
     bakes2Name.textContent = 'Banana Bread'
     const bakes2Price = document.createElement('p');
@@ -107,7 +107,7 @@ function menuPage(){
     bakesOptions.append(bakes2);
 
     const bakes3 = document.createElement('div');
-    bakes3.classList.add('bakes3')
+    bakes3.classList.add('menu-line')
     const bakes3Name = document.createElement('p');
     bakes3Name.textContent = 'Chocolate Cookie'
     const bakes3Price = document.createElement('p');
@@ -119,15 +119,15 @@ function menuPage(){
 
 
     const section4 = document.createElement('div');
-    section4.classList.add('sec4');
+    section4.classList.add('menu-section');
     const title4 = document.createElement('p')
     title4.textContent = 'Extras';
     title4.classList.add('title')
     const extrasOptions = document.createElement('div');
-    extrasOptions.classList.add('extrasOptions')
+    extrasOptions.classList.add('options')
 
     const extras1 = document.createElement('div');
-    extras1.classList.add('extra1')
+    extras1.classList.add('menu-line')
     const extras1Name = document.createElement('p');
     extras1Name.textContent = 'Oat / Almond Milk '
     const extras1Price = document.createElement('p');
@@ -136,7 +136,7 @@ function menuPage(){
     extrasOptions.append(extras1);
 
     const extras2 = document.createElement('div');
-    extras2.classList.add('extra2')
+    extras2.classList.add('menu-line')
     const extras2Name = document.createElement('p');
     extras2Name.textContent = 'Extra Espresso Shot'
     const extras2Price = document.createElement('p');
@@ -145,7 +145,7 @@ function menuPage(){
     extrasOptions.append(extras2);
 
     const extras3 = document.createElement('div');
-    extras3.classList.add('extra3')
+    extras3.classList.add('menu-line')
     const extras3Name = document.createElement('p');
     extras3Name.textContent = 'Syrup (Vanilla / Caramel)'
     const extras3Price = document.createElement('p');
