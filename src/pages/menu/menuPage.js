@@ -2,14 +2,15 @@ import "./menu.css"
 
 function menuPage(){
     const menuDiv = document.createElement('div');
-    menuDiv.classList.add('menuDiv');
+    menuDiv.classList.add('menu-div');
+
 
     const section1 = document.createElement('div');
     section1.classList.add('menu-section');
     const title1 = document.createElement('p');
+    title1.classList.add('title');
     title1.textContent = 'Coffee';
-    title1.classList.add('title')
-
+    
     const coffeesOptions = document.createElement('div');
     coffeesOptions.classList.add('options')
 
@@ -43,11 +44,13 @@ function menuPage(){
     section1.append(title1, coffeesOptions)
 
 
+
     const section2 = document.createElement('div');
     section2.classList.add('menu-section');
-    const title2 = document.createElement('p')
+    const title2 = document.createElement('p');
+    title2.classList.add('title');
     title2.textContent = 'Tea';
-    title2.classList.add('title')
+    
     const teasOptions = document.createElement('div');
     teasOptions.classList.add('options')
 
@@ -80,11 +83,14 @@ function menuPage(){
 
     section2.append(title2, teasOptions)
 
+
+
     const section3 = document.createElement('div');
     section3.classList.add('menu-section');
     const title3 = document.createElement('p');
+    title3.classList.add('title');
     title3.textContent = 'Bakes';
-    title3.classList.add('title')
+    
     const bakesOptions = document.createElement('div');
     bakesOptions.classList.add('options')
 
@@ -118,11 +124,13 @@ function menuPage(){
     section3.append(title3, bakesOptions)
 
 
+    
     const section4 = document.createElement('div');
     section4.classList.add('menu-section');
     const title4 = document.createElement('p')
+    title4.classList.add('title');
     title4.textContent = 'Extras';
-    title4.classList.add('title')
+    
     const extrasOptions = document.createElement('div');
     extrasOptions.classList.add('options')
 
@@ -154,6 +162,8 @@ function menuPage(){
     extrasOptions.append(extras3)
 
     section4.append(title4, extrasOptions)
+
+
 
     menuDiv.append(section1, section2, section3, section4)
     const content = document.getElementById('content');
