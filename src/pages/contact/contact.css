@@ -1,0 +1,20 @@
+.contact-div {
+    width: 550px;
+    background-color: rgba(255, 255, 255, 0.8);
+    justify-self: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 1rem 0;
+    align-self: center;
+}
