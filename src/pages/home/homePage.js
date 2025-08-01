@@ -14,7 +14,7 @@ function homePage() {
     openingHours.classList.add('openingHours')
 
     const hoursTitle = document.createElement('h2');
-    hoursTitle.textContent = 'Opening Hours';
+    hoursTitle.textContent = '🕒 Opening Hours';
 
     const hours = document.createElement('p');
     hours.innerHTML = 'Monday / Friday: 8:00 AM - 7:00 PM<br>Saturday / Sunday: 9:00 AM - 6:00 PM';
