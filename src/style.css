@@ -53,12 +53,12 @@ nav {
   display: flex;
   justify-content: center;
   padding: 1rem 0;
-  gap: 3rem;
 }
 
 nav button {
   all: unset;
   font-family: 'Inter';
+  padding: 1rem 1.5rem;
   font-size: 1.3rem;
   cursor: pointer;
   color: snow;
