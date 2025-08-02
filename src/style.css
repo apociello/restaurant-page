@@ -26,19 +26,17 @@ html, body {
 }
 
 body {
-    background-image: url(coffee.jpg);
+    background-image: url(photo.jpg);
     font-family: 'Inter';
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-   display: grid;
-   grid-template-rows: auto 1fr;
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
 header{
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem 1rem 0;
 }
 
 header p {
@@ -52,7 +50,7 @@ header p {
 nav {
   display: flex;
   justify-content: center;
-  padding: 1rem 0;
+  padding: 1rem 0 0;
 }
 
 nav button {
