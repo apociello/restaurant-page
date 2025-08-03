@@ -8,7 +8,7 @@ const teaPrices = ['$2.50', '$2.50', '$2.50']
 const bakeTypes = ['Butter Croissant', 'Banana Bread', 'Chocolate Cookie']
 const bakePrices = ['$2.00', '$2.50', '$1.80']
 const extraTypes = ['Oat / Almond Milk', 'Extra Espresso Shot', 'Syrup (Vanilla / Caramel)']
-const extraPrices = ['$0.40', '$0.50', '$0.30€']
+const extraPrices = ['$0.40', '$0.50', '$0.30']
 
 
 function menuPage(){
