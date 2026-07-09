@@ -1,3 +1,18 @@
-A restaurant-page built with HTML, CSS, JS, & WEBPACK module bundler for JS.
+# Quiet Cup
 
-It has 3 sections: Home, Menu, Contact.
+A café landing page built with vanilla JavaScript.
+
+🔗 [Live Demo](https://apociello.github.io/restaurant-page/)
+
+## Features
+
+- Tabbed navigation (Home, Menu, Contact) with active tab indicator
+- Each section built as its own module
+- Menu items grouped by category with prices
+
+## Built with
+
+- HTML
+- CSS
+- JavaScript
+- Webpack
